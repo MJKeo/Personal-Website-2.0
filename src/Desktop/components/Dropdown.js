@@ -56,7 +56,7 @@ class DropDown extends Component {
                         <Link to="/Blog" style={{textDecoration: "none"}}><h2 class="dark-cyan">Blog</h2></Link>
                     </div>
                     <div class="dropdown-items-row">
-                        <Link to="/Secret" style={{textDecoration: "none"}}><h2 class="dark-cyan">Secret</h2></Link>
+                        <Link to="/Secret" style={{textDecoration: "none"}}><h2 class="dark-cyan">???</h2></Link>
                         <h2 class="dark-cyan"></h2>
                     </div>
                 </div>

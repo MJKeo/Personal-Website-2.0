@@ -33,7 +33,7 @@
         width: 90vw;
         opacity: 0;
         animation: fade-in-shift 0.5s 0.25s ease-out forwards;
-        margin-bottom: 100px;
+        margin-bottom: 25px;
     }
 
     .about-me-text h1 {
