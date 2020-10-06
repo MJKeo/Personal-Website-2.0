@@ -2,7 +2,7 @@
   "name": "website-2.0",
   "version": "0.1.0",
   "private": true,
-  "homepage": "mjkeo.github.io",
+  "homepage": "https://mjkeo.github.io/Personal-Website-2.0",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
