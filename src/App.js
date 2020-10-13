@@ -25,6 +25,8 @@ import DCU from "./Desktop/experiences/DCU.js";
 import Cisco from "./Desktop/experiences/Cisco.js";
 import LetsGetReady from "./Desktop/experiences/LetsGetReady.js";
 import ParksAndRec from "./Desktop/experiences/ParksAndRec.js";
+// import games
+import WorstTTT from "./Desktop/games/WorstTTT.js";
 // import stylesheets
 import './App.css';
 
@@ -48,12 +50,14 @@ function App() {
           <Route path="/Projects/Project-Shatter" exact component={ProjectShatter} />
           <Route path="/Projects/Space-Trader" exact component={SpaceTrader} />
           {/* Experiences */}
-          <Route path="/Experience/Home-Depot" exact component={HomeDepot} />
-          <Route path="/Experience/MealMe" exact component={MealMe} />
-          <Route path="/Experience/DCU" exact component={DCU} />
-          <Route path="/Experience/Cisco-Systems" exact component={Cisco} />
-          <Route path="/Experience/Lets-Get-Ready" exact component={LetsGetReady} />
-          <Route path="/Experience/Shrewsbury-Parks-And-Rec" exact component={ParksAndRec} />
+          <Route path="/Experiences/Home-Depot" exact component={HomeDepot} />
+          <Route path="/Experiences/MealMe" exact component={MealMe} />
+          <Route path="/Experiences/DCU" exact component={DCU} />
+          <Route path="/Experiences/Cisco-Systems" exact component={Cisco} />
+          <Route path="/Experiences/Lets-Get-Ready" exact component={LetsGetReady} />
+          <Route path="/Experiences/Shrewsbury-Parks-And-Rec" exact component={ParksAndRec} />
+          {/* WorstTTT */}
+          <Route path="/Games/Worst-Tic-Tac-Toe" exact component={WorstTTT} />
         </Router>
     </div>
   );

@@ -17,6 +17,15 @@
     animation: fade-in-shift 0.5s 0.25s ease-out forwards;
 }
 
+.project-link {
+    opacity: 0;
+    animation: fade-in-shift 0.5s 0.25s ease-out forwards;
+}
+
+.project-link a {
+    color:inherit;
+}
+
 .project-body {
     opacity: 0;
     animation: fade-in-shift 0.5s 0.35s ease-out forwards;
@@ -52,6 +61,12 @@
         margin-bottom: 20px;
         margin-top: 10px;
     }
+
+    .project-link {
+        font-size: 14px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
     
     .project-body {
         font-size: 18px;
@@ -80,6 +95,12 @@
         font-size: 26px;
         margin-bottom: 50px;
         margin-top: 0px;
+    }
+
+    .project-link {
+        font-size: 20px;
+        margin-bottom: 50px;
+        margin-top: 10px;
     }
     
     .project-body {
